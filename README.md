@@ -1,6 +1,23 @@
 # battery-charge-limits
 non-root max % charge &amp; max temperature charge solution using HS110+termux+php 
 
+# setup
+connect your charger via a [HS110](https://www.tp-link.com/uk/home-networking/smart-plug/hs110/) smartplug, make sure the HS110 and your phone is on the same wifi (you can use a wifi hotspot if none is available), find the HS110 ip address, 
+install "Termux" and "Termux API" from Google Play Store,
+then open Termux and write 
+```sh
+apt update;
+apt full-upgrade;
+apt install php termux-api git;
+```
+(and it is important that you install the termux api both from playstore AND within termux itself, i think)
+then just run it like this: 
+
+> php battery_max_temp.php
+
+then it will ask you a bunch of questions (max temp, max charge, hs110 ip address), and it will remember your answers (and make them the default next time you run it), 
+and then it will start doing it's thing..
+
 it looks like this:
 
 ```sh
