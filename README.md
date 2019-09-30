@@ -9,6 +9,8 @@ then open Termux and write
 apt update;
 apt full-upgrade;
 apt install php termux-api git;
+git clone https://github.com/divinity76/battery-charge-limits.git;
+cd battery-charge-limits;
 ```
 (and it is important that you install the termux api both from playstore AND within termux itself, i think)
 then just run it like this: 
@@ -36,7 +38,7 @@ here is your current battery stats: object(Battery_status)#1 (5) {
   float(39)
 }
 stop charging at %?  (default: 100): 100
-max battery temperature while charging?  (default: 39): 9
+max battery temperature while charging?  (default: 39): 39
 hs110 ip address?  (default: 192.168.1.109): 192.168.1.109
 testing hs110 connection...string(0) ""
 that\'s all! will now begin doing my thing.
