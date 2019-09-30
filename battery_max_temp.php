@@ -17,7 +17,7 @@ if (false === ($max_charge = filter_var($max_charge, FILTER_VALIDATE_FLOAT, arra
     die("invalid value, must be numeric between 0-100\n");
 }
 $max_temperature = ask("max battery temperature while charging", 39);
-if (false === ($max_temperature = filter_var($max_charge, FILTER_VALIDATE_FLOAT, array(
+if (false === ($max_temperature = filter_var($max_temperature, FILTER_VALIDATE_FLOAT, array(
     'options' => array(
         'min_range' => 0,
         'max_range' => 100
