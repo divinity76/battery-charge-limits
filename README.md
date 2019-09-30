@@ -49,3 +49,7 @@ Current status: charging. reason: (default)
 Current status: charging. reason: (default)
 Current status: charging. reason: (default)^C
 ```
+
+
+
+(made this because i haven't figured out how to root my Cat S61 yet! if you think you can help with that, please contact me at https://www.reddit.com/r/cats61/comments/dbisso/how_to_root_the_phone/ or divinity76@gmail.com ...) 
