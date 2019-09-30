@@ -35,8 +35,8 @@ here is your current battery stats: object(Battery_status)#1 (5) {
   ["temperature"]=>
   float(39)
 }
-stop charging at %?  (default: 100):100
-max battery temperature while charging?  (default: 39):39
+stop charging at %?  (default: 100): 100
+max battery temperature while charging?  (default: 39): 9
 hs110 ip address?  (default: 192.168.1.109): 192.168.1.109
 testing hs110 connection...string(0) ""
 that\'s all! will now begin doing my thing.
