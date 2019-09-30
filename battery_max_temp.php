@@ -49,7 +49,7 @@ for (;;) {
     }
     echo "\nCurrent status: ".($charge ? "charging" : "not charging").". reason: ".$reason;
     $hs110->execCommand( $charge ? "on":"off");
-    sleep(3);
+    sleep(100);
 }
 
 
