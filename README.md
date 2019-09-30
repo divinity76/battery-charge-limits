@@ -2,7 +2,7 @@
 non-root max % charge &amp; max temperature charge solution using HS110+termux+php 
 
 # setup
-connect your charger via a [HS110](https://www.tp-link.com/uk/home-networking/smart-plug/hs110/) smartplug, make sure the HS110 and your phone is on the same wifi (you can use a wifi hotspot if none is available), find the HS110 ip address, 
+connect your charger via a [HS110](https://www.tp-link.com/uk/home-networking/smart-plug/hs110/) smartplug, make sure the HS110 and your phone is on the same wifi (you can create a wifi hotspot if none is available), find the HS110 ip address, 
 install "Termux" and "Termux API" from Google Play Store,
 then open Termux and write 
 ```sh
